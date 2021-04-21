@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
+.baraDeSus {
+  background-color: #3a3a3a;
+  color: #d5d5d5;
+  display: flex;
+  justify-content: space-between;
+  max-height: 30px;
+  align-items: center;
+  max-width: 2000px;
+}
+.mid-text {
+  display: flex;
+  background-color: #3a3a3a;
+}
+.baraDeSus2 {
+  display: flex;
+  align-items: center;
+}
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(7, 8, 6, 0.82);
+  color: #f7f7f7;
+}
+.douaColoane {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  padding-bottom: 30px;
+}
+.navButtons1 {
+  border: solid 1px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ccc;
+  min-height: 35px;
+}
+.navButtons2 {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #ef7d04;
+  color: #f0f0f0;
+}
+.navButtons1:hover {
+  border-color: #ef7d04;
+  color: #ef7d04;
+  transition: 0.5s;
+  background-color: gba(0, 0, 0, 0.705);
+}
+.navButtons2:hover {
+  border-color: #ef7d04;
+  color: #ef7d04;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+.navButtons2:focus {
+  outline: none;
+}
+.navButtons1:focus {
+  outline: none;
+}
+.colorOrg {
+  color: #ef7d04;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body {
+  font-family: open-sans, open-sans-IE, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.changeColor:hover {
+  color: #ef7d04;
+  transition: 0.5s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background {
+  min-height: 1000px;
+  width: auto;
+  background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/1-bmw-7-series-730ld-2019-uk-fd-hero-front.jpg?itok=3hIdcBPu");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.inchiriere {
+  display: grid;
+  grid-template-columns: 155px 155px;
+  grid-template-rows: 40px 40px;
+  row-gap: 10px;
+  column-gap: 25px;
+  background-color: rgba(7, 8, 6, 0.82);
+  padding: 45px 25px;
+}
+.grid-row {
+  display: grid;
+  grid-template-columns: 75px 75px;
+  grid-template-rows: 40px 40px;
+  row-gap: 10px;
+  column-gap: 3px;
+}
+.autoButton {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #ef7d04;
+  color: #f0f0f0;
+  height: 40px;
+}
+.autoButton:hover {
+  border-color: #ef7d04;
+  color: #ef7d04;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.autoButton:focus {
+  outline: none;
+}
+.backOrg {
+  background-color: rgba(239, 125, 4, 0.75);
+  color: #f0f0f0;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.bordDeInchiriere {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: auto;
+  max-width: 400px;
+  position: relative;
+  left: 400px;
+  top: 350px;
 }
-
-.App-link {
-  color: #61dafb;
+.somller-text {
+  font-size: 13px;
+  margin-top: -10px;
+  padding-bottom: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.elimDecor {
+  color: #f0f0f0;
+  -webkit-appearance: none;
+  background-color: rgba(31, 31, 31, 0.88);
+  border: 1px solid #434343;
+}
+.elimDecor:focus {
+  outline: none;
+}
+.deleFocus {
+  color: #d4d4d4;
+  background-color: rgba(31, 31, 31, 0.88);
+  border: 1px solid #434343;
+}
+.deleFocus:focus {
+  outline: none;
+}
+.delDecore {
+  background-color: #3a3a3a;
+  color: #d5d5d5;
+  -webkit-appearance: none;
+  transition: 0.5s;
+}
+.marimea {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 700px;
+}
+.maiMic {
+  font-size: 12px;
+  color: #d5d5d5;
+}
+.cars {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: 50% 25%;
+  row-gap: 10px;
+  column-gap: 3px;
+  border: solid 1px;
+}
+.width-img {
 }
