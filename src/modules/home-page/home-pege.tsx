@@ -3,7 +3,7 @@ import { NavBar } from "../../nav-bar";
 function Homepage() {
   return (
     <div className="body">
-      <NavBar />
+      {/*<NavBar />*/}
       <div className="baraDeSus">
         <p>
           mun.Chisinau, Bd. Dacia 80/3 Aeroportul International Chisinau Sala
@@ -75,38 +75,47 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div className="cars">
-        <div className="firstTipCar">
-          {" "}
-          <img
-            className="width-img"
-            src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FRXModelImage.jpg&h=300&w=450&q=100"
-            alt=""
-          />
-        </div>
-        <div className="secondTipCar">
-          {" "}
-          <img
-            className="width-img"
-            src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FX5ModelImage.jpg&h=300&w=450&c=1"
-            alt=""
-          />{" "}
-        </div>
-        <div className="thirdTipCar">
-          {" "}
-          <img
-            className="width-img"
-            src="https://cdn.autoportal.com/img/new-cars-gallery/skoda/octavia/colors/a92f1351ab1dcbfa442f452d068e01b8.jpg"
-            alt=""
-          />{" "}
-        </div>
-        <div className="fourthTipCar">
-          {" "}
-          <img
-            className="width-img"
-            src="https://imgd.aeplcdn.com/0x0/n/cw/ec/45390/gls-exterior-right-front-three-quarter-2.jpeg"
-            alt=""
-          />{" "}
+      <div className="backgroundCar">
+        <div className="width-page-car">
+          <h2>CHIRIE DE MASINI AUTO</h2>
+          <div className="cars">
+            <div className="decorCar">
+              <img
+                className="width-img"
+                src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FRXModelImage.jpg&h=300&w=450&q=100"
+                alt=""
+              />
+              <h1 className="mid-text-classes">LEXUS</h1>
+              <p className="mid-text-classes">CLASS</p>
+            </div>
+            <div className="decorCar">
+              <img
+                className="width-img"
+                src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FX5ModelImage.jpg&h=300&w=450&c=1"
+                alt=""
+              />
+              <h1 className="mid-text-classes">BMW</h1>
+              <p className="mid-text-classes">CLASS</p>
+            </div>
+            <div className="decorCar">
+              <img
+                className="width-img"
+                src="https://cars.usnews.com/static/images/Auto/izmo/i113293111/2019_audi_a6_angularfront.jpg"
+                alt=""
+              />
+              <h1 className="mid-text-classes">AUDI</h1>
+              <p className="mid-text-classes">CLASS</p>
+            </div>
+            <div className="decorCar">
+              <img
+                className="width-img"
+                src="https://images.carandbike.com/car-images/large/mercedes-benz/g-class/mercedes-benz-g-class.jpg?v=3"
+                alt=""
+              />
+              <h1 className="mid-text-classes">MERCEDES-BENZ</h1>
+              <p className="mid-text-classes">CLASS</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

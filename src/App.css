@@ -163,11 +163,39 @@
 }
 .cars {
   display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-rows: 50% 25%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   row-gap: 10px;
-  column-gap: 3px;
-  border: solid 1px;
+  column-gap: 10px;
+  justify-content: center;
 }
 .width-img {
+  max-width: 450px;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decorCar {
+  border: solid 1px #dedede;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+.decorCar:hover {
+  color: #ef7d04;
+  transition: 0.25s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mid-text-classes {
+  display: flex;
+  align-self: center;
+}
+.backgroundCar {
+  background-color: #dedede91;
+}
+.width-page-car {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
