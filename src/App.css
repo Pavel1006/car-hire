@@ -73,7 +73,7 @@
 .background {
   min-height: 1000px;
   width: auto;
-  background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/1-bmw-7-series-730ld-2019-uk-fd-hero-front.jpg?itok=3hIdcBPu");
+  background-image: url("car-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -198,4 +198,83 @@
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 30px;
+}
+.autoMargin {
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+}
+.footer {
+  background-color: #262626;
+  color: #8a8a8a;
+}
+hr {
+  background-color: #8a8a8a;
+  margin: 0px 0px;
+}
+.color-text {
+  min-height: 110px;
+  color: #cfcfcf;
+}
+.margin-bottom {
+  padding-top: 3px;
+  margin-bottom: 0px;
+  padding-bottom: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.disp-none {
+  display: none;
+}
+.bolt-text {
+  font-weight: 900;
+  font-size: 22px;
+}
+.bigger {
+  font-size: 22px;
+}
+.media {
+  padding-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 95px;
+}
+.icons {
+  display: flex;
+  flex-basis: 92px;
+  justify-content: space-between;
+}
+.bigger1 {
+  font-size: 37px;
+}
+.margin-h2-top {
+  padding-top: 20px;
+  margin-top: 0px;
+}
+.color-insta {
+  background: -webkit-linear-gradient(#833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color-twitter {
+  color: #00abeeb4;
+}
+.color-facebook {
+  color: #3b5998;
+}
+.color-tiktok {
+  color: black;
+}
+.color-mastercard {
+  color: rgba(255, 255, 255, 0.685);
+}
+.color-visa {
+  color: rgba(255, 255, 255, 0.685);
 }

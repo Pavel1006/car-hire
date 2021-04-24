@@ -20,6 +20,7 @@ function Homepage() {
         </div>
       </div>
       <div className="background">
+        <div></div>
         <nav className="navBar">
           <div>
             <h1>
@@ -77,15 +78,15 @@ function Homepage() {
       </div>
       <div className="backgroundCar">
         <div className="width-page-car">
-          <h2>CHIRIE DE MASINI AUTO</h2>
+          <h2 className="margin-h2-top">CHIRIE DE MASINI AUTO</h2>
           <div className="cars">
             <div className="decorCar">
               <img
                 className="width-img"
-                src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FRXModelImage.jpg&h=300&w=450&q=100"
+                src="https://cdn.carbuzz.com/car-thumbnails/300x160/4000/500/4539.jpg"
                 alt=""
               />
-              <h1 className="mid-text-classes">LEXUS</h1>
+              <h1 className="mid-text-classes">BUISNESS</h1>
               <p className="mid-text-classes">CLASS</p>
             </div>
             <div className="decorCar">
@@ -94,26 +95,75 @@ function Homepage() {
                 src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FX5ModelImage.jpg&h=300&w=450&c=1"
                 alt=""
               />
-              <h1 className="mid-text-classes">BMW</h1>
+              <h1 className="mid-text-classes">SUV</h1>
               <p className="mid-text-classes">CLASS</p>
             </div>
             <div className="decorCar">
               <img
                 className="width-img"
-                src="https://cars.usnews.com/static/images/Auto/izmo/i113293111/2019_audi_a6_angularfront.jpg"
+                src="https://cars.usnews.com/static/images/Auto/izmo/i159613939/2020_dodge_grand_caravan_angularfront.jpg"
                 alt=""
               />
-              <h1 className="mid-text-classes">AUDI</h1>
+              <h1 className="mid-text-classes">MINIVAN</h1>
               <p className="mid-text-classes">CLASS</p>
             </div>
             <div className="decorCar">
               <img
                 className="width-img"
-                src="https://images.carandbike.com/car-images/large/mercedes-benz/g-class/mercedes-benz-g-class.jpg?v=3"
+                src="https://images.hgmsites.net/hug/2021-tesla-model-3_100777876_h.jpg"
                 alt=""
               />
-              <h1 className="mid-text-classes">MERCEDES-BENZ</h1>
+              <h1 className="mid-text-classes">ELECTRIC</h1>
               <p className="mid-text-classes">CLASS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="autoMargin">
+          <div className="information">
+            <p>DESPRE NOI</p>
+            <p>AUTOMOBILE</p>
+            <p>NOUTATI</p>
+            <p>CONTACTE</p>
+            <p>REZERVARE</p>
+            <p>HARTA SITE-ULUI</p>
+            <p>CONDITII</p>
+            <p>POLITICA DE CONFIDENTIALITATE</p>
+          </div>
+          <hr />
+          <div className="information color-text">
+            <p>
+              <i className="material-icons">place</i> mun.Chisinau, Bd. Dacia
+              80/3 Aeroportul International <br />
+              Sala Sosiri - oficiu GoodRent
+            </p>
+            <p>
+              <i className="material-icons">local_phone</i> (+373)68900001{" "}
+              <br />
+              (+373)48080010
+            </p>
+            <p>
+              <span className="bolt-text">@</span> Email: <br />
+              something@goodrent.md
+            </p>
+            <p>
+              <i className="fas fa-clipboard-list bigger"></i> Program de lucru:{" "}
+              <br /> Luni-Duminica 24/7
+            </p>
+            <div className="icons">
+              <i className="fab fa-cc-mastercard bigger1 color-mastercard"></i>
+              <i className="fab fa-cc-visa bigger1 color-visa"></i>
+            </div>
+          </div>
+          <hr />
+          <div className="margin-bottom">
+            <p>Copyright 2021. Realizare site-uri web Pavel</p>
+            <div className="media">
+              <i className="fab fa-instagram bigger color-insta"></i>
+              <i className="fab fa-twitter bigger color-twitter"></i>
+              <i className="fab fa-facebook-f bigger color-facebook"></i>
+              <i className="fab fa-tiktok bigger color-tiktok"></i>
             </div>
           </div>
         </div>
