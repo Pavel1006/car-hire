@@ -1,11 +1,15 @@
 .baraDeSus {
-  background-color: #3a3a3a;
   color: #d5d5d5;
   display: flex;
   justify-content: space-between;
   max-height: 30px;
   align-items: center;
-  max-width: 2000px;
+  max-width: 1234px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.baraDeSus3 {
+  background-color: #3a3a3a;
 }
 .mid-text {
   display: flex;
@@ -17,10 +21,15 @@
 }
 .navBar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  background-color: rgba(7, 8, 6, 0.82);
   color: #f7f7f7;
+  max-width: 1234px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navBar2 {
+  background-color: rgba(7, 8, 6, 0.82);
 }
 .douaColoane {
   display: grid;
@@ -65,22 +74,70 @@
 
 .body {
   font-family: open-sans, open-sans-IE, sans-serif;
+  display: flex;
+}
+.changeColor {
+  padding-top: 30px;
+  font-weight: 560;
+  text-decoration: none;
+  color: white;
+}
+.delete-link-dom-decor {
+  text-decoration: none;
+  color: #8a8a8a;
+}
+.delete-link-dom-decor:hover {
+  text-decoration: none;
+  color: #8a8a8a;
 }
 .changeColor:hover {
   color: #ef7d04;
   transition: 0.5s;
 }
-.background {
+/*.background {
   min-height: 1000px;
   width: auto;
   background-image: url("car-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+}*/
+.pavel_icons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  font-family: "Mukta", sans-serif;
 }
+.e {
+  position: relative;
+  left: -2px;
+  display: flex;
+  transform: skew(10deg);
+  flex-direction: row;
+}
+.o {
+  position: relative;
+  left: -10px;
+  top: -6px;
+  display: flex;
+  transform: skew(10deg);
+  flex-direction: row;
+  font-size: 25px;
+  transform: rotate(70deg);
+}
+.div_ivisible {
+  width: 15px;
+  height: 6px;
+  background-color: #262626;
+  position: relative;
+  top: 8px;
+  left: -30px;
+}
+
 .inchiriere {
   display: grid;
-  grid-template-columns: 155px 155px;
-  grid-template-rows: 40px 40px;
+  grid-template-columns: 212px 212px;
+  grid-template-rows: 50px 50px 50px;
   row-gap: 10px;
   column-gap: 25px;
   background-color: rgba(7, 8, 6, 0.82);
@@ -88,8 +145,8 @@
 }
 .grid-row {
   display: grid;
-  grid-template-columns: 75px 75px;
-  grid-template-rows: 40px 40px;
+  grid-template-columns: 105px 105px;
+  grid-template-rows: 50px 50px;
   row-gap: 10px;
   column-gap: 3px;
 }
@@ -98,7 +155,7 @@
   border: 1px solid transparent;
   background-color: #ef7d04;
   color: #f0f0f0;
-  height: 40px;
+  height: 50px;
 }
 .autoButton:hover {
   border-color: #ef7d04;
@@ -119,14 +176,15 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  max-width: 400px;
-  position: relative;
-  left: 400px;
-  top: 350px;
+  max-width: 500px;
+  position: absolute;
+  left: 339px;
+  top: 290px;
 }
 .somller-text {
   font-size: 13px;
   margin-top: -10px;
+  padding-top: 5px;
   padding-bottom: 25px;
 }
 .elimDecor {
@@ -134,6 +192,8 @@
   -webkit-appearance: none;
   background-color: rgba(31, 31, 31, 0.88);
   border: 1px solid #434343;
+  font-size: 18px;
+  border-radius: 5px;
 }
 .elimDecor:focus {
   outline: none;
@@ -142,6 +202,8 @@
   color: #d4d4d4;
   background-color: rgba(31, 31, 31, 0.88);
   border: 1px solid #434343;
+  font-size: 18px;
+  border-radius: 5px;
 }
 .deleFocus:focus {
   outline: none;
@@ -151,11 +213,28 @@
   color: #d5d5d5;
   -webkit-appearance: none;
   transition: 0.5s;
+  border: none;
+}
+.delDecore:focus {
+  outline: none;
+}
+.delDecore2 {
+  background-color: #3a3a3a;
+  color: #d5d5d5;
+  -webkit-appearance: none;
+  transition: 0.5s;
+  display: none;
+  border: transparent;
+  background: transparent;
+  width: 40px;
+}
+.delDecore2:focus {
+  outline: none;
 }
 .marimea {
   display: flex;
   justify-content: space-between;
-  flex-basis: 700px;
+  flex-basis: 600px;
 }
 .maiMic {
   font-size: 12px;
@@ -163,7 +242,7 @@
 }
 .cars {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 49.5% 49.5%;
   grid-template-rows: 50% 50%;
   row-gap: 10px;
   column-gap: 10px;
@@ -193,6 +272,7 @@
 }
 .backgroundCar {
   background-color: #dedede91;
+  width: 100%;
 }
 .width-page-car {
   max-width: 1300px;
@@ -206,6 +286,12 @@
   margin-right: auto;
 }
 .information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+}
+.information1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -277,4 +363,157 @@ hr {
 }
 .color-visa {
   color: rgba(255, 255, 255, 0.685);
+}
+.infoBeforeCars {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color-change-silver {
+  color: rgb(90, 86, 86);
+  font-size: 19px;
+  margin: 0px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Zilla Slab", serif;
+}
+.img-background {
+  width: 100%;
+  height: auto;
+}
+.b {
+  display: flex;
+}
+.nav-bar-button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: #d5d5d5;
+  display: none;
+  border: none;
+}
+.bigger-button {
+  font-size: 19px;
+}
+@media (max-width: 1500px) {
+  .bordDeInchiriere {
+    top: 148px;
+    left: 35%;
+  }
+}
+@media (max-width: 780px) {
+  .width-img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 920px) {
+  .width-img-eco-car {
+    width: 100%;
+    height: auto;
+  }
+  .cars {
+    grid-template-columns: 49.3% 49.3%;
+  }
+}
+@media (max-width: 1000px) {
+  .bordDeInchiriere {
+    position: initial;
+    max-width: 100%;
+  }
+  .inchiriere {
+    grid-template-columns: auto auto;
+  }
+  .body {
+    flex-direction: column;
+  }
+  .backOrg {
+  }
+  .grid-row {
+    grid-template-columns: auto auto;
+  }
+  .marimea {
+    display: none;
+  }
+  .douaColoane {
+    display: none;
+  }
+  .nav-bar-button {
+    display: initial;
+  }
+  .delDecore2 {
+    display: initial;
+  }
+  .baraDeSus3 {
+    display: none;
+  }
+  .information {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 1px;
+    column-gap: 1px;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 750px) {
+  .inchiriere {
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+  }
+}
+@media (max-width: 660px) {
+  .cars {
+    grid-template-columns: 49.1% 49.1%;
+  }
+}
+@media (max-width: 600px) {
+  .information {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-between;
+  }
+  .information1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .margin-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .media {
+    justify-content: center;
+    max-height: 60px;
+  }
+}
+
+@media (max-width: 430px) {
+  .cars {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+  }
+  .information {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+  }
+  .information1 {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+}
+@media (max-width: 522px) {
+  .inchiriere {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+  }
+  .grid-row {
+    grid-template-columns: 49.6% 49.6%;
+  }
 }
