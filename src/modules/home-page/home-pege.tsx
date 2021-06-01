@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { CarRentContext } from "../../context/CarRentProvider";
+
 function Homepage() {
+  const { cars } = useContext(CarRentContext);
+  console.log(cars);
   return (
     <div className="body">
       <img

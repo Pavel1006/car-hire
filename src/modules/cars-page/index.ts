@@ -1,12 +1,13 @@
 import { CarsPage } from "./cars-page";
 
-const CarsModule = {
+const CarsPageModule = {
   routeProps: {
     path: "/cars",
     exact: true,
     component: CarsPage,
+    id: 2,
   },
   name: "cars",
 };
 
-export { CarsModule };
+export { CarsPageModule };

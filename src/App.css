@@ -90,6 +90,35 @@
   text-decoration: none;
   color: #8a8a8a;
 }
+/*
+.decorCar {
+  border: solid 1px #dedede;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+.decorCar:hover {
+  color: #ef7d04;
+  transition: 0.25s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+.delete-link-dom-decor-cars-page {
+  text-decoration: none;
+  color: black;
+  border: solid 1px #dedede;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+
+.delete-link-dom-decor-cars-page:hover {
+  text-decoration: none;
+  color: #ef7d04;
+  transition: 0.25s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .changeColor:hover {
   color: #ef7d04;
   transition: 0.5s;
@@ -396,6 +425,22 @@ hr {
 }
 .bigger-button {
   font-size: 19px;
+}
+.grid-map-cars {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 300px 300px 300px 300px;
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
+}
+.cars-in-map {
+  display: flex;
+  flex-direction: column;
+}
+.width-img-car-map {
+  width: 300px;
+  height: auto;
 }
 @media (max-width: 1500px) {
   .bordDeInchiriere {

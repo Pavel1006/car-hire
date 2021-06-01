@@ -1,6 +1,19 @@
 import { HomeModule } from "./home-page";
-import { CarsModule } from "./cars-page";
+import { CarsPageModule } from "./cars-page";
+import { BuisnessCarsModule } from "./buisness-cars";
+import { MoreCarsModule } from "./more-cars";
+import { MinivanCarsModule } from "./minivan-cars";
+import { SuvCarsModule } from "./suv-cars";
+import { CarsModule } from "./cars";
 
-const modules = [HomeModule, CarsModule];
+const modules = [
+  HomeModule,
+  CarsPageModule,
+  BuisnessCarsModule,
+  MoreCarsModule,
+  MinivanCarsModule,
+  SuvCarsModule,
+  CarsModule,
+];
 
 export { modules };

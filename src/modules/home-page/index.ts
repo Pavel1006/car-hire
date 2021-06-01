@@ -5,6 +5,7 @@ const HomeModule = {
     path: "/",
     exact: true,
     component: Homepage,
+    id: 1,
   },
   name: "home",
 };

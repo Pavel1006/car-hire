@@ -10,7 +10,7 @@ function RouterContainer() {
       <NavBar />
       <Switch>
         {modules.map((module) => (
-          <Route {...module.routeProps} />
+          <Route {...module.routeProps} key={module.name} />
         ))}
       </Switch>
       <Footer />
