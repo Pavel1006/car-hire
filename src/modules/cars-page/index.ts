@@ -5,7 +5,6 @@ const CarsPageModule = {
     path: "/cars",
     exact: true,
     component: CarsPage,
-    id: 2,
   },
   name: "cars",
 };

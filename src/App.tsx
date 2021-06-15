@@ -23,25 +23,22 @@ function App() {
 
   //https://jsonplaceholder.typicode.com/users/1/posts
 
-  /* const GetCars = () => {
-    fetch("https://localhost:44359/api/cars")
+  /*const GetCars = () => {
+    fetch("https://localhost:44359/api/Cars")
       .then((cars) => cars.json())
       .then((cars) => console.log(cars));
   };
   useEffect(() => {
     GetCars();
-  }, []);
-*/
+  }, []);*/
 
   //post method fetch
 
   /*const fetchData2 = () => {
-    fetch("https://jsonplaceholder.typicode.com/posts", {
-      method: "POST",
+    fetch("https://localhost:44359/api/cars/1/photos/1", {
+      method: "PATCH",
       body: JSON.stringify({
-        title: "GoodRent",
-        body: "this is a new model of car",
-        userId: 11,
+        priority: 4,
       }),
       headers: {
         "Content-type": "application/json; charset=UTF-8",
@@ -51,7 +48,7 @@ function App() {
       .then((json) => console.log(json));
   };
   useEffect(() => {
-    fetchData2();
+    GetCars;
   }, []);*/
 
   return (

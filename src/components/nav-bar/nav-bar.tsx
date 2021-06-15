@@ -10,8 +10,17 @@ function NavBar() {
             Sosiri - oficiu GoodRent
           </p>
           <div className="baraDeSus2">
-            <span>Autentificare |</span>
-            <span> Iregistrare |</span>
+            <span>
+              <Link to="/sign-up" className="log-out-change-color">
+                Sign up |{" "}
+              </Link>
+            </span>
+            <span>
+              <Link to="/log-in" className="log-out-change-color">
+                {" "}
+                Log in |{" "}
+              </Link>
+            </span>
             <select className="delDecore">
               <option value="ro">RU</option>
               <option value="en">EN</option>
@@ -49,8 +58,13 @@ function NavBar() {
               <p>
                 <span className="maiMic">(+373)</span>78080010
               </p>
-              <button className="navButtons1">CAUTARE</button>
-              <button className="navButtons2">REZERVARE</button>
+              <button className="navButtons1">CAUTARE </button>
+
+              <button className="navButtons2">
+                <Link to="/cars/REZERVARE" className="link-rezervare-button2">
+                  REZERVARE
+                </Link>
+              </button>
             </div>
             <select className="delDecore2">
               <option value="ro">RU</option>

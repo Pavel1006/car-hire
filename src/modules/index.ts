@@ -1,19 +1,23 @@
 import { HomeModule } from "./home-page";
 import { CarsPageModule } from "./cars-page";
 import { BuisnessCarsModule } from "./buisness-cars";
-import { MoreCarsModule } from "./more-cars";
+import { EconomicCarsModule } from "./economic-cars";
 import { MinivanCarsModule } from "./minivan-cars";
 import { SuvCarsModule } from "./suv-cars";
-import { CarsModule } from "./cars";
+import { RezervareModule } from "./rezervare";
+import { LogInModule } from "./log-in";
+import { SignUPModule } from "./sign-up";
 
 const modules = [
   HomeModule,
   CarsPageModule,
   BuisnessCarsModule,
-  MoreCarsModule,
+  EconomicCarsModule,
   MinivanCarsModule,
   SuvCarsModule,
-  CarsModule,
+  RezervareModule,
+  LogInModule,
+  SignUPModule,
 ];
 
 export { modules };

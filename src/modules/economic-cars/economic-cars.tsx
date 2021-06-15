@@ -1,15 +1,14 @@
 import { useContext } from "react";
 import { CarRentContext } from "../../context/CarRentProvider";
 
-function MinivanCars() {
+function EconomicCars() {
   const { cars } = useContext(CarRentContext);
 
   return (
     <div className="grid-map-cars">
       {cars
-        .filter((body) => {
-          return body.body === ("PickUp" && "Minivan");
-        })
+        //.filter((body) => body.body === "Sedan")
+        .filter((body) => body.model === "Corola")
         .map((car) => (
           <div key={car.id} className="cars-in-map">
             <img
@@ -26,4 +25,4 @@ function MinivanCars() {
     </div>
   );
 }
-export { MinivanCars };
+export { EconomicCars };

@@ -5,7 +5,6 @@ const SuvCarsModule = {
     path: "/cars/suv-cars",
     exact: true,
     component: SuvCars,
-    id: 8,
   },
   name: "suv-cars",
 };

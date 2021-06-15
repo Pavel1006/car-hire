@@ -44,7 +44,7 @@ function Footer() {
         </div>
         <hr />
         <div className="margin-bottom">
-          <p>
+          <div>
             Copyright 2021. Realizare site-uri web by Pavel Mereacre
             <div className="pavel_icons">
               <i>/</i>
@@ -58,7 +58,7 @@ function Footer() {
               </i>
               <div className="div_ivisible"></div>
             </div>
-          </p>
+          </div>
 
           <div className="media">
             <a
