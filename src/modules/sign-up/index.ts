@@ -1,10 +1,10 @@
-import { SignUp } from "./sign-up";
+import { SignUP } from "./sign-up";
 
 const SignUPModule = {
   routeProps: {
     path: "/sign-up",
     exact: true,
-    component: SignUp,
+    component: SignUP,
   },
   name: "sign-up",
 };

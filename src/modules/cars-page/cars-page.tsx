@@ -6,10 +6,7 @@ function CarsPage() {
       <div className="width-page-car">
         <h2 className="margin-h2-top">CHIRIE DE MASINI AUTO</h2>
         <div className="cars">
-          <Link
-            to="cars/buisness-cars"
-            className="delete-link-dom-decor-cars-page"
-          >
+          <Link to="cars/Sedan" className="delete-link-dom-decor-cars-page">
             <img
               className="width-img"
               src="https://cdn.carbuzz.com/car-thumbnails/300x160/4000/500/4539.jpg"
@@ -18,7 +15,7 @@ function CarsPage() {
             <h1 className="mid-text-classes">BUISNESS</h1>
             <p className="mid-text-classes">CLASS</p>
           </Link>
-          <Link to="cars/suv-cars" className="delete-link-dom-decor-cars-page">
+          <Link to="cars/Suv" className="delete-link-dom-decor-cars-page">
             <img
               className="width-img"
               src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FX5ModelImage.jpg&h=300&w=450&c=1"
@@ -27,10 +24,7 @@ function CarsPage() {
             <h1 className="mid-text-classes">SUV</h1>
             <p className="mid-text-classes">CLASS</p>
           </Link>
-          <Link
-            to="cars/minivan-cars"
-            className="delete-link-dom-decor-cars-page"
-          >
+          <Link to="cars/Minivan" className="delete-link-dom-decor-cars-page">
             <img
               className="width-img"
               src="https://cars.usnews.com/static/images/Auto/izmo/i159613939/2020_dodge_grand_caravan_angularfront.jpg"
@@ -39,16 +33,13 @@ function CarsPage() {
             <h1 className="mid-text-classes">MINIVAN</h1>
             <p className="mid-text-classes">CLASS</p>
           </Link>
-          <Link
-            to="cars/economic-cars"
-            className="delete-link-dom-decor-cars-page"
-          >
+          <Link to="cars/PickUp" className="delete-link-dom-decor-cars-page">
             <img
               className="width-img width-img-eco-car"
-              src="https://www.motortrend.com/uploads/sites/5/2020/06/2020-tesla-model-3.png?fit=around%7C875:492.1875"
+              src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/Nissan-Navara-dual-cab.png"
               alt=""
             />
-            <h1 className="mid-text-classes">ECONOMIC</h1>
+            <h1 className="mid-text-classes">PICK UP</h1>
             <p className="mid-text-classes">CLASS</p>
           </Link>
         </div>
@@ -81,4 +72,5 @@ function CarsPage() {
     </div>
   );
 }
+
 export { CarsPage };

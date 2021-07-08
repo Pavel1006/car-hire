@@ -1,23 +1,19 @@
 import { HomeModule } from "./home-page";
 import { CarsPageModule } from "./cars-page";
-import { BuisnessCarsModule } from "./buisness-cars";
-import { EconomicCarsModule } from "./economic-cars";
-import { MinivanCarsModule } from "./minivan-cars";
-import { SuvCarsModule } from "./suv-cars";
-import { RezervareModule } from "./rezervare";
-import { LogInModule } from "./log-in";
+import { ReservationModule } from "./reservation";
 import { SignUPModule } from "./sign-up";
+import { LogInModule } from "./log-in";
+import { CarsModule } from "./cars";
+import { FinalReservationPageModule } from "./final.reservation";
 
 const modules = [
+  CarsModule,
   HomeModule,
   CarsPageModule,
-  BuisnessCarsModule,
-  EconomicCarsModule,
-  MinivanCarsModule,
-  SuvCarsModule,
-  RezervareModule,
-  LogInModule,
+  ReservationModule,
   SignUPModule,
+  LogInModule,
+  FinalReservationPageModule,
 ];
 
 export { modules };

@@ -1,9 +1,4 @@
-import { useRouteMatch } from "react-router";
-
-function Rezervare() {
-  const router = useRouteMatch<{ type: string }>();
-  console.log(router.params.type);
-
+function Reservation() {
   return (
     <div className="rezervare-bigg-div">
       <div className="div-log-in">
@@ -62,4 +57,4 @@ function Rezervare() {
   );
 }
 
-export { Rezervare };
+export { Reservation };

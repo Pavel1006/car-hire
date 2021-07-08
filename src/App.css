@@ -1,4 +1,4 @@
-.baraDeSus {
+.barDeSus {
   color: #d5d5d5;
   display: flex;
   justify-content: space-between;
@@ -8,14 +8,14 @@
   margin-left: auto;
   margin-right: auto;
 }
-.baraDeSus3 {
+.barDeSus3 {
   background-color: #3a3a3a;
 }
 .mid-text {
   display: flex;
   background-color: #3a3a3a;
 }
-.baraDeSus2 {
+.barDeSus2 {
   display: flex;
   align-items: center;
 }
@@ -154,7 +154,7 @@
   font-size: 25px;
   transform: rotate(70deg);
 }
-.div_ivisible {
+.div_invisible {
   width: 15px;
   height: 6px;
   background-color: #262626;
@@ -247,7 +247,7 @@
 .delDecore:focus {
   outline: none;
 }
-.delDecore2 {
+.delDecor2 {
   background-color: #3a3a3a;
   color: #d5d5d5;
   -webkit-appearance: none;
@@ -257,7 +257,7 @@
   background: transparent;
   width: 40px;
 }
-.delDecore2:focus {
+.delDecor2:focus {
   outline: none;
 }
 .marimea {
@@ -482,6 +482,10 @@ form {
   margin-bottom: auto;
   max-width: 200px;
   max-height: 20px;
+}
+.autoImage {
+  flex-direction: column;
+  display: flex;
 }
 @media (max-width: 1500px) {
   .bordDeInchiriere {

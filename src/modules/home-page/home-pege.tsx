@@ -1,4 +1,5 @@
 import { useContext } from "react";
+
 import { CarRentContext } from "../../context/CarRentProvider";
 
 function Homepage() {
@@ -32,11 +33,13 @@ function Homepage() {
             <option value="">Chisinau Centru </option>
           </select>
           <div className="grid-row">
-            <input className="deleFocus" type="text" placeholder="dd/mm/yy" />
-            <input className="deleFocus" type="text" placeholder="00:00" />
+            <input className="deleFocus" placeholder="dd/mm/yy" />
+            <input className="deleFocus" placeholder="00:00" />
           </div>
-          <input className="deleFocus" type="text" placeholder="Virsta" />
-          <button className="autoButton">ALEGE AUTOMOBIL</button>
+          <input className="deleFocus" placeholder="Age" />
+          <button type="submit" className="autoButton">
+            Chose car
+          </button>
         </div>
       </div>
     </div>

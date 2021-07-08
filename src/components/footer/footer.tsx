@@ -56,7 +56,7 @@ function Footer() {
               <i className="o">
                 <div>o</div>
               </i>
-              <div className="div_ivisible"></div>
+              <div className="div_invisible"></div>
             </div>
           </div>
 

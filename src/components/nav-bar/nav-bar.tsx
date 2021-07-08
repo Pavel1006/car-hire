@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div>
-      <div className="baraDeSus3">
-        <div className="baraDeSus">
+      <div className="barDeSus3">
+        <div className="barDeSus">
           <p>
             mun.Chisinau, Bd. Dacia 80/3 Aeroportul International Chisinau Sala
             Sosiri - oficiu GoodRent
           </p>
-          <div className="baraDeSus2">
+          <div className="barDeSus2">
             <span>
               <Link to="/sign-up" className="log-out-change-color">
                 Sign up |{" "}
@@ -22,7 +22,7 @@ function NavBar() {
               </Link>
             </span>
             <select className="delDecore">
-              <option value="ro">RU</option>
+              <option value="ro">RO</option>
               <option value="en">EN</option>
               <option value="ru">RU</option>
             </select>
@@ -61,12 +61,12 @@ function NavBar() {
               <button className="navButtons1">CAUTARE </button>
 
               <button className="navButtons2">
-                <Link to="/cars/REZERVARE" className="link-rezervare-button2">
+                <Link to="/Reservation" className="link-rezervare-button2">
                   REZERVARE
                 </Link>
               </button>
             </div>
-            <select className="delDecore2">
+            <select className="delDecor2">
               <option value="ro">RU</option>
               <option value="en">EN</option>
               <option value="ru">RU</option>

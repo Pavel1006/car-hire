@@ -38,7 +38,7 @@ function App() {
     fetch("https://localhost:44359/api/cars/1/photos/1", {
       method: "PATCH",
       body: JSON.stringify({
-        priority: 4,
+        EMAIL:
       }),
       headers: {
         "Content-type": "application/json; charset=UTF-8",

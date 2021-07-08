@@ -6,6 +6,7 @@ export type Car = {
   color: string;
   fuelId: number;
   transmissionId: number;
+  transmission: string;
   carBodyId: number;
   fabricationYear: string;
   registrationNumber: string;

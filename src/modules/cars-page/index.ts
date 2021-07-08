@@ -6,7 +6,7 @@ const CarsPageModule = {
     exact: true,
     component: CarsPage,
   },
-  name: "cars",
+  name: "cars-page",
 };
 
 export { CarsPageModule };
