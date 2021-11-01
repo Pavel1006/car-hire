@@ -1,4 +1,4 @@
-const FetchData = (
+const SignUpService = (
   lastName: string,
   firstName: string,
   email: string,
@@ -23,4 +23,4 @@ const FetchData = (
       console.error("Error:", error);
     });
 };
-export { FetchData };
+export { SignUpService };

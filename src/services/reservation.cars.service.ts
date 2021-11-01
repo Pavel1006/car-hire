@@ -1,13 +1,17 @@
-const ReservationFetch = (carId: number) => {
+type ReservationProps = {
+  carId: number;
+  startDate: any;
+  endDate: any;
+};
+
+const ReservationService = (reservation: ReservationProps) => {
   fetch("https://localhost:44359/api/Reservations", {
     method: "POST",
-    body: JSON.stringify({
-      startDate: "2021-07-08T07:01:38.383Z",
-      endDate: "2021-07-08T07:01:38.383Z",
-      carId: carId,
-    }),
+    body: JSON.stringify(reservation),
     headers: {
-      Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+      Authorization: `Bearer ${
+        JSON.parse(localStorage.getItem("accessToken") || "{}").accessToken
+      }`,
       accept: "text/plain",
       "Content-Type": "application/json",
     },
@@ -18,4 +22,4 @@ const ReservationFetch = (carId: number) => {
       console.error("Error:", error);
     });
 };
-export { ReservationFetch };
+export { ReservationService };

@@ -4,7 +4,7 @@ function CarsPage() {
   return (
     <div className="backgroundCar">
       <div className="width-page-car">
-        <h2 className="margin-h2-top">CHIRIE DE MASINI AUTO</h2>
+        <h2 className="margin-h2-top">CAR RENTAL</h2>
         <div className="cars">
           <Link to="cars/Sedan" className="delete-link-dom-decor-cars-page">
             <img
@@ -12,7 +12,7 @@ function CarsPage() {
               src="https://cdn.carbuzz.com/car-thumbnails/300x160/4000/500/4539.jpg"
               alt=""
             />
-            <h1 className="mid-text-classes">BUISNESS</h1>
+            <h1 className="mid-text-classes">BUSINESS</h1>
             <p className="mid-text-classes">CLASS</p>
           </Link>
           <Link to="cars/Suv" className="delete-link-dom-decor-cars-page">
@@ -46,27 +46,26 @@ function CarsPage() {
       </div>
       <div className="infoBeforeCars">
         <p className="color-change-silver">
-          Căutați mașini confortabile cu interior curat și opțiunile necesare
-          pentru o conducere plăcută? Chiria zilnică de mașini de la compania
-          VIPRent se efectuează cu livrarea de autovehicule în municipiul
-          Chișinău și în zona aeroportului absolut gratuit, oricând, 24 de ore,
-          365 de zile pe an.
+          Look for comfortable cars with a clean interior and the necessary
+          options for pleasant driving? Daily car rental from the company
+          VIPRent is carried out with the delivery of vehicles in the
+          municipality Chisinau and the airport area absolutely free, anytime,
+          24 hours, 365 days a year.
         </p>
         <p className="color-change-silver">
           {" "}
-          Dacă sunteți interesat în închirierea unei mașini, prețuri și
-          condiții, vă aflați pe pagina potrivită. Costul serviciului depinde de
-          clasa mașinii selectate și perioada de închiriere. Oferim condiții
-          favorabile - cu cât perioada de închiriere este mai lungă, cu atât
-          este mai avantajoasă închirierea automobilului.
+          If you are interested in renting a car, prices and conditions, you are
+          on the right page. The cost of the service depends on the class of the
+          selected car and the rental period. We offer conditions favorable -
+          the longer the rental period it is more advantageous to rent a car.
         </p>
-        <h2>Automobile de la GoodRent</h2>
+        <h2>GoodRent car</h2>
         <p className="color-change-silver">
-          Specialiștii companiei au analizat prețurile de pe piață și au format
-          o politică de prețuri convenabila pentru fiecare dintre voi. În
-          funcție de nevoile dvs., puteți alege o mașină și închiria automobilul
-          pentru o zi, din clasele prezentate, următoarele mărci: Audi, BMW,
-          Mercedes, Hyundai, Toyota, Volkswagen, Skoda, Nissan, KIA, Renault.
+          The company's specialists analyzed the market prices and formed a
+          convenient pricing policy for each of you. In the Depending on your
+          needs, you can choose a car and rent a car for one day, from the
+          classes presented, the following brands: Audi, BMW, Mercedes, Hyundai,
+          Toyota, Volkswagen, Skoda, Nissan, KIA, Renault.
         </p>
       </div>
     </div>
